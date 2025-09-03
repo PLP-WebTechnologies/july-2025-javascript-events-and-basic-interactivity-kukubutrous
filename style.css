@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark {
+    background: #222;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Error & Success Messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.dropdown li {
+    padding: 8px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown li:hover {
+    background: #ddd;
+}
+
+/* Tabs */
+.tabs {
+    margin: 10px 0;
+}
+
+.tab-btn {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: #eee;
+}
+
+.tab-btn.active {
+    background: #ddd;
+    font-weight: bold;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
